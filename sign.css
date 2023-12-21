@@ -1,0 +1,95 @@
+.body {
+    background-color: #344a72;
+    
+  }
+.background {
+    background-image: url(https://www.wns.co.za/Portals/0/Images/HeaderBanner/desktop/1087/53/travel_HD.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup-box {
+    width: 400px;
+    height: 480px;
+    margin: auto;
+    background-color: rgb(244, 251, 247);
+    border-radius: 3px;
+    justify-content:center;
+
+  }
+
+.login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    justify-content:center;
+  }
+.backpack{
+  background-image: url(https://th.bing.com/th/id/R.61f116c6f3f7be8e7d6f3cdb5e4638d4?rik=R7H7jKHMFDJVIw&riu=http%3a%2f%2ftravelingcanucks.com%2fwp-content%2fuploads%2f2017%2f05%2fTraveling_Canucks_Travel_Photography_005.jpg&ehk=n6LBIPuKPOXJo8B4qPbgN1J5M5t4XO7QWzxI6gqCOYQ%3d&risl=1&pid=ImgRaw&r=0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .h4 {
+    text-align: center;
+  }
+  .form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 60%;
+    padding: 10px;
+    border: 3px solid ;
+    justify-content:center;
+  }
+  .form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    position: fixed;
+    justify-content:center;
+  }
+  .input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border:none;
+    background-color: #49c1a2;
+    color: rgb(105, 47, 242);
+    font-size: 18px;
+    justify-content:center;
+  }
+ .p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-size: 15px;
+    margin-top: -1px;
+    padding-top: 20px;
+  }
+  .para-2 a {
+    color: #49c1a2;
+    margin-top: -1;
+    padding-top: 20px;
+    
+
+  }
+  
+  

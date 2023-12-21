@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="expo.css">
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="slider">
+            <!-- Add your slider images here -->
+            <img class="slide" src ="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\tokuo.jpeg "></img>
+            <img class="slide" src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\taj mahal.jpg"></img>
+            <img class="slide" src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\america 2.jpg" ></img>
+        </div>
+        <div class="search-box">
+            <h1>Explore Your Next Adventure</h1>
+            <form action="#" method="get">
+                <input id="text" name="destination" placeholder="Enter your destination" required>
+                <input type="date" name="check-in" required>
+                <input type="date" name="check-out" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- Add your content here -->
+
+    <script >
+        document.addEventListener('DOMContentLoaded', function () {
+    // Get the form element
+    const searchForm = document.querySelector('form');
+
+    // Add an event listener to the form
+    searchForm.addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the form from submitting normally
+
+        // Get the user input values
+        const destination = document.querySelector('input[name="destination"]').value;
+        const checkInDate = document.querySelector('input[name="check-in"]').value;
+        const checkOutDate = document.querySelector('input[name="check-out"]').value;
+
+        // Display an alert with the user's input
+        
+    });
+});
+    </script>
+    
+    <section class="hotels">
+        <!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link href="./css/style.css" rel="expo.css">
+        </head>
+        
+        <body>
+            <div class="container py-5">
+                <h1 class="text-center">Popular Hotels At Best Deals</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+        
+                    <div class="col">
+                        <div class="card">
+                            <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\R.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Faluknama palace</h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="mb-5 d-flex justify-content-around">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="card">
+                            <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\1st img.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Canada Hills</h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="mb-5 d-flex justify-content-around"> 
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="card">
+                            <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\Overview2nd.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dalhousie India</h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="mb-5 d-flex justify-content-around">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="card">
+                            <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\R (1).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ma'lasa hotel</h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="mb-5 d-flex justify-content-around">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="card">
+                            <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\R(2).webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Diamond harbour</h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="mb-5 d-flex justify-content-around">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col">
+                        <div class="card">
+                            <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\R(3).jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ERA SANTIAGO</h5>
+                                <p class="card-text"></p>
+                            </div>
+                            <div class="mb-5 d-flex justify-content-around">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+        </body>
+        </html>
+    </section>
+
+    <section>
+        <!DOCTYPE html>
+        <html lang="en">
+        
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Explore</title>
+                <link rel="stylesheet" href="review.css">
+      </head>
+
+    <body>
+        <section>
+        <!-- --- Testimonials Section --- -->
+        <div class="testi_section">
+            <h1 class="heading">Testimonials</h1>
+            <p class="para">public feedback from your travellers.</p>
+            <div class="testi_container">
+
+                <div class="testi_card">
+                    <img src="" class="quote">
+                    <p>Everything Was Great. It was a nice experience all in all. Amjad Bhai was very supportive throughout. Piyush Ji Also coordinated well.</p>
+                    <div class="test_person">
+                        <img src="C:\Users\Admin\Downloads\hero1.jpeg" width="50px">
+                        <div class="name_desig">
+                            <h4>David Smith</h4>
+                            <p>Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi_card">
+                    <img src="" class="quote">
+                    <p>"With reference to the above mentioned subject the overall booking procedure and all the related things were absoulute upto date and got the cheapest deal from travel triangle"</p>
+                    <div class="test_person">
+                        <img src="C:\Users\Admin\Downloads\hero2.jpeg" width="50px">
+                        <div class="name_desig">
+                            <h4>David Smith</h4>
+                            <p>Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi_card">
+                    <img src="" class="quote">
+                    <p>"It was a great trip for both of us. The hotels were good throughout the places. The Cab driver Dara Singh Ji was very helpful with the right recommendations ..!!"</p>
+                    <div class="test_person">
+                        <img src="C:\Users\Admin\Downloads\hero3.jpeg" width="50px">
+                        <div class="name_desig">
+                            <h4>David Smith</h4>
+                            <p>Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+</section>
+     <section class="packages" id="packages">
+        <div class="container">
+          <section>
+          <div class="main-txt">
+            <h1><span>P</span>ackages</h1>
+          </div>
+  
+          <div class="row" style="margin-top: 30px;">
+  
+            <div class="col-md-4 py-3 py-md-0">
+  
+              <div class="card">
+                <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\london.jpg" alt="">
+                <div class="card-body">
+                  <h3>United Kingdom</h3>
+                  <p>United Kingdom is a major industry and contributor to the U.K. economy, which is the world's 10th biggest tourist destination, with over 40.1 million visiting in 2019, contributing a total of £234 billion to the GDP.</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star "></i>
+                  </div>
+                  <h6>Price: <strong>$500</strong></h6>
+                  <a class="bttn" href="#book">Book Now</a>
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+  
+              <div class="card">
+                <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\France-1024x727.jpg" alt="">
+                <div class="card-body">
+                  <h3>France</h3>
+                  <p>France directly contributed 79.8 billion euros to gross domestic product (GDP) in 2013, 30% of which comes from international visitors and 70% from domestic tourism spending.</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star "></i>
+                  </div>
+                  <h6>Price: <strong>$500</strong></h6>
+                  <a class="bttn" href="#book">Book Now</a>
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+  
+              <div class="card">
+                <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\london.jpg" alt="">
+                <div class="card-body">
+                  <h3>Pakistan</h3>
+                  <p>Pakistan is a breathtakingly gorgeous nation with old civilisation relics, Mughal architecture, snow- capped mountains, frozen lakes, peaceful valleys, and enticing beaches.</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star "></i>
+                  </div>
+                  <h6>Price: <strong>$500</strong></h6>
+                  <a class="bttn" href="#book">Book Now</a>
+                </div>
+              </div>
+  
+            </div>
+  
+  
+  
+          </div>
+  
+  
+  
+          <div class="row" style="margin-top: 30px;">
+  
+            <div class="col-md-4 py-3 py-md-0">
+  
+              <div class="card">
+                <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\santorini.jpeg" alt="">
+                <div class="card-body">
+                  <h3>Greece</h3>
+                  <p>Greece is located in southeastern Europe, situated at the southern tip of the Balkan Peninsula. Surrounded by crystal blue waters all around, Greece has 2,000 islands, among which only 160 are inhabited</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star "></i>
+                  </div>
+                  <h6>Price: <strong>$500</strong></h6>
+                  <a class="bttn" href="#book">Book Now</a>
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+  
+              <div class="card">
+                <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\taj mahal.jpg" alt="">
+                <div class="card-body">
+                  <h3>India</h3>
+                  <p>India is one of the most preferred tourist destinations in Asia because of its beautiful landscape, rich cultural heritage, myriad attractions and valuable ancient history</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star "></i>
+                  </div>
+                  <h6>Price: <strong>$500</strong></h6>
+                  <a  class="bttn" href="#book">Book Now</a>
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+  
+              <div class="card">
+                <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\america 1.jpg" alt="">
+                <div class="card-body">
+                  <h3>United States</h3>
+                  <p>In the United States, tourism is a large industry that serves millions of international and domestic tourists yearly. Foreigners visit the U.S. to see natural wonders, cities, historic landmarks, and entertainment venues. Americans seek similar attractions.</p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star "></i>
+                    <i class="fa-solid fa-star "></i>
+                  </div>
+                  <h6>Price: <strong>$500</strong></h6>
+                  <a class="bttn" href="#book">Book Now</a>
+                </div>
+              </div>
+  
+            </div>
+  
+  
+  
+          </div>
+  
+          </section>
+        </div>
+      </section>
+     <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.twitter.com/" target="_blank"
+            ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram"></i
+            ></a>
+        </div>
+        <p>&copy; 2023 Travel Website. All Rights Reserved.</p>
+       </footer>
+
+   
+</body>
+
+</html>

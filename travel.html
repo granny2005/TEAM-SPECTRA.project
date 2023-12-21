@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/all.min.css">
+    </head>
+    <body>
+        
+        <header>
+            <a href="#" class="brand">Travel</a>
+            <div class="menu-btn"></div>
+            <div class="navigation">
+                <div class="navigation-items">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\explore\explore.html">Explore</a>
+                    <a href="#">Contact</a>
+                    <a href="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\sign up\signup.html">Login\signup</a>
+                </div>
+            </div>
+        </header>
+        <main>
+        <section class="home">
+            <video class="video-slide"src="D:\GUNAVARDHAN\classroom\.vscode\new site\front vid\pexels_videos_1851190 (2160p).mp4"autoplay muted loop></video>
+            <video class="video-slide"src="D:\GUNAVARDHAN\classroom\.vscode\new site\front vid\pexels-swapnil-shiwalay-14259386 (1080p).mp4"autoplay muted loop></video>
+            <video class="video-slide"src="D:\GUNAVARDHAN\classroom\.vscode\new site\front vid\pexels-taryn-elliott-5614884 (2160p).mp4"autoplay muted loop></video>
+            <video class="video-slide"src="D:\GUNAVARDHAN\classroom\.vscode\new site\front vid\pexels-zhivko-minkov-13238808 (2160p).mp4"autoplay muted loop></video>
+            <video class="video-slide"src="D:\GUNAVARDHAN\classroom\.vscode\new site\front vid\production_id_4811927 (1080p).mp4"autoplay muted loop></video>
+            <div class="content active">
+                <h1>Explore.<br><span>The World</span></h1>
+                <p>Embark on a journey of a lifetime and explore the world's most breathtaking destinations with our expert travel advice . From exoitic beaches to cultural wonders, we've got you covered with our comprehensive travel guides and insider tips.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="content">
+                <h1>Enjoy.<br><span>Camping</span></h1>
+                <p>Camping is a favorite pastime activity among many people because it is cost-effective and provides an opportunity to enjoy nature and reconnect with family and friends. It incorporates a wide range of activities, such as swimming, hiking, running, fishing, canoeing, and cycling.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="content">
+                <h1>Adventures.<br><span>Off Road</span></h1>
+                <p>Off-roading is an exciting and adventurous activity that involves driving a vehicle on unpaved roads, rocky terrains, and other challenging landscapes. It is a great way to explore the beauty of nature and test your driving skills.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="content">
+                <h1>Train Trip.<br><span>Together</span></h1>
+                <p>A train journey is so exciting because we get a lot of time to travel and meet many new people around us. People from different places would be sharing food items and many conversations. We can enjoy the beauty of nature very closely.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="content">
+                <h1>Feel Nature.<br><span>Relax</span></h1>
+                <p> Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science.</p>
+                <a href="#">Read More</a>
+            </div>
+    <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+    </div>
+        </section>
+        
+        <script type="text/javascript">
+            //js of responsive navigation menu
+            const menuBtn = document.querySelector(".menu-btn");
+            const navigation = document.querySelector(".navigation");
+    
+            menuBtn.addEventListener("click",()=>{
+                menuBtn.classList.toggle("active");
+                navigation.classList.toggle("active");
+            });
+    
+            //js for video slider navigation
+            const btns = document.querySelectorAll(".nav-btn");
+            const slides= document.querySelectorAll(".video-slide");
+            const contents= document.querySelectorAll(".content");
+    
+            var sliderNav = function(manual){
+                btns.forEach((btn) => {
+                    btn.classList.remove("active");
+                });
+    
+                slides.forEach((slide) => {
+                    slide.classList.remove("active");
+                });
+    
+                contents.forEach((content) => {
+                    content.classList.remove("active");
+                });
+    
+    
+                btns[manual].classList.add("active");
+                slides[manual].classList.add("active");
+                contents[manual].classList.add("active");
+            }
+    
+            btns.forEach((btn,i)=>{
+                btn.addEventListener("click",()=>{
+                    sliderNav(i);
+                });
+            });
+    
+        </script>
+         </section>
+         <section id="destinations" class="destinations">
+             <h2>Popular Destinations</h2>
+             <div class="destination-grid">
+                <div class="destination-item">
+                    <a href="https://www.google.com/maps/place/New+York,+NY,+USA/@40.6975399,-74.3093443,10z/data=!3m1!4b1!4m6!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2?entry=ttu"><img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\new york.jpeg" alt="" /></a>
+                    <h3>New York City</h3>
+                    <p>
+                        Visit the city that never sleeps and discover its iconic
+                        landmarks, world-class museums, and diverse neighborhoods.
+                    </p>
+                </div>
+                <div class="destination-item">
+                    <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\paris.jpeg" alt="" />
+                    <h3>Paris</h3>
+                    <p>
+                        Experience the romance and culture of the City of Lights, from the
+                        Eiffel Tower to the Louvre Museum.
+                    </p>
+                </div>
+                <div class="destination-item">
+                    <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\tokuo.jpeg" alt="" />
+                    <h3>Tokyo</h3>
+                    <p>
+                        Explore the vibrant city of Tokyo and immerse yourself in its
+                        unique blend of ancient traditions and modern technology.
+                    </p>
+                </div>
+            </div>
+                     
+                 
+             <div class="destination-grid">
+                 <div class="destination-item">
+                     <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\africa 2.jpg" alt="" />
+                     <h3>South Africa</h3>
+                     <p>
+                        The country's multicultural diversity, especially 
+                        in the wake of apartheid.
+                     </p>
+                 </div>
+                 <div class="destination-item">
+                     <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\south america 1.jpg" alt="" />
+                     <h3>Rio de</h3>
+                     <p>
+                        Home to the biggest urban forest in the world and the iconic Christ statue, 
+                        Christ the Redeemer..
+                     </p>
+                 </div>
+                 <div class="destination-item">
+                     <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\sydeny 2.jpg"  alt="" />
+                     <h3>Sydney</h3>
+                     <p>
+                        A city with a rich history and culture, from the Indigenous cultures to the 
+                        colonial and contemporary cultures.
+                     </p>
+                 </div>
+             </div>
+         </section>
+     
+         <section id="hotels" class="destinations">
+             <h2>Featured Hotels</h2>
+             <div class="destination-grid">
+                 <div class="destination-item">
+                     <img src="C:\Users\Admin\Downloads\luxuary.jpeg" alt="" />
+                     <h3>The Ritz Carlton</h3>
+                     <p>
+                         Experience luxury accommodations and impeccable service at The
+                         Ritz Carlton, located in the heart of the city.
+                     </p>
+                 </div>
+                 <div class="destination-item">
+                     <img src="C:\Users\Admin\Downloads\boat.jpeg" alt="" />
+                     <h3>The Four Seasons</h3>
+                     <p>
+                         Relax in style at The Four Seasons, featuring breathtaking views,
+                         an award-winning spa, and gourmet dining options.
+                     </p>
+                 </div>
+                 <div class="destination-item">
+                     <img src="C:\Users\Admin\Downloads\liquor.jpeg" alt="" />
+                     <h3>The Waldorf Astoria</h3>
+                     <p>
+                         Indulge in luxury at The Waldorf Astoria, a historic landmark
+                         hotel renowned for its elegance and sophistication.
+                     </p>
+                 </div>
+             </div>
+         </section>
+         <section id="activites" class="destinations">
+             <h2>Featured Activities</h2>
+             <div class="destination-grid">
+                 <div class="destination-item">
+                     <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\canon.jpeg" alt="" />
+                     <h3>The Ritz Carlton</h3>
+                     <p>
+                         Experience luxury accommodations and impeccable service at The
+                         Ritz Carlton, located in the heart of the city.
+                     </p>
+                 </div>
+                 <div class="destination-item">
+                     <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\fishing.jpeg" alt="" />
+                     <h3>The Four Seasons</h3>
+                     <p>
+                         Relax in style at The Four Seasons, featuring breathtaking views,
+                         an award-winning spa, and gourmet dining options.
+                     </p>
+                 </div>
+                 <div class="destination-item">
+                     <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\210930153416-11-waldorf-astoria-new-york.jpg" alt="" />
+                     <h3>The Waldorf Astoria</h3>
+                     <p>
+                         Indulge in luxury at The Waldorf Astoria, a historic landmark
+                         hotel renowned for its elegance and sophistication.
+                     </p>
+                 </div>
+             </div>
+         </section>
+     
+         <section id="about" class="about">
+             <h3>About Us</h3>
+             <p>
+                 Our company is dedicated to providing the best travel experiences to
+                 our customers. We specialize in creating custom itineraries that cater
+                 to each individual's interests and preferences.
+             </p>
+             <div class="team-members">
+                 <div class="team-member">
+                     <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\OIP.jpg" alt="" />
+                     <h4>Guna Vardhan</h4>
+                     <p>Founder & CEO</p>
+                 </div>
+                 <div class="team-member">
+                     <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\14db57058ce91bdabe27a8bed9dba9ca.jpg" alt="" />
+                     <h4>Pranav Raj</h4>
+                     <p>Head of Operations</p>
+                 </div>
+                 <div class="team-member">
+                     <img src="D:\GUNAVARDHAN\classroom\.vscode\new site\travel img\OIP (1).jpg" alt="" />
+                     <h4>Prem Kumar</h4>
+                     <p>Marketing Director</p>
+                 </div>
+             </div>
+         </section>
+         <section id="contact" class="contact">
+             <h3>Contact Us</h3>
+             <div class="contact-info">
+                 <p>
+                     If you have any questions or would like to book a trip, please fill
+                     out the form below or contact us using the information provided.
+                 </p>
+                 <ul>
+                     <li>
+                         <i class="fas fa-map-marker-alt"></i>123 Main St, Anytown USA
+                     </li>
+                     <li>
+                         <i class="fa-solid fa-envelope"></i>
+                         ><a href="mailto:info@travelcompany.com"
+                     >info@travelcompany.com</a
+                     >
+                     </li>
+                     <li>
+                         <i class="fas fa-phone-alt"></i
+                         ><a href="tel:555-123-4567">555-123-4567</a>
+                     </li>
+                 </ul>
+             </div>
+             <form action="#" class="form">
+                 <div class="form-group">
+                     <input
+                             type="name"
+                             name="name"
+                             id="name"
+                             placeholder="Enter Your Name"
+                     />
+                 </div>
+                 <div class="form-group">
+                     <input
+                             type="email"
+                             name="email"
+                             id="email"
+                             placeholder="Enter Your Email"
+                     />
+                 </div>
+                 <div class="form-group">
+                 <textarea
+                         name="textarea"
+                         id="textarea"
+                         cols="30"
+                         rows="10"
+                         placeholder="Message"
+                 ></textarea>
+                 </div>
+                 <button type="submit">Send Message</button>
+             </form>
+         </section>
+         
+        </main>
+         <footer>
+             <div class="social-icons">
+                 <a href="https://www.facebook.com/" target="_blank"
+                 ><i class="fab fa-facebook"></i
+                 ></a>
+                 <a href="https://www.twitter.com/" target="_blank"
+                 ><i class="fab fa-twitter"></i
+                 ></a>
+                 <a href="https://www.instagram.com/" target="_blank"
+                 ><i class="fab fa-instagram"></i
+                 ></a>
+             </div>
+             <p>&copy; 2023  Travel Website. All Rights Reserved.</p>
+            </footer>
+           
+            
+            
+</body>
+<iframe hidden
+         src="https://www.chatbase.co/chatbot-iframe/TmD4fzr2Zd8b5aglW597k"
+         width="100%"
+         style="height: 100%; min-height: 700px"
+         frameborder="0"
+         ></iframe>
+<script>
+    window.embeddedChatbotConfig = {
+    chatbotId: "TmD4fzr2Zd8b5aglW597k",
+    domain: "www.chatbase.co"
+    }
+    </script>
+    <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="TmD4fzr2Zd8b5aglW597k"
+    domain="www.chatbase.co"
+    defer>
+    </script>
+</html>
